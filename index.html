@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--this link is for connecting the style file into html file-->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!--this link for menu icon -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkOxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Add Font Awesome for icons -->
+<script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+
+    <!--this link for font from google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>CodSoft</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="./images/codsoft.png">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--This below code for home page -->
+
+    <section class="hero">
+      <div class="home-content">
+      <h1>Welcome to CodSoft</h1>
+      <h2>Innovate. Build. Succeed.</h2>
+      <p>
+        We provide cutting-edge IT solutions, web development, and internship
+        programs to empower businesses and aspiring tech professionals.
+      </p>
+      <button class="get-button" onclick="showMessage()">Get Started</button>
+      </div>
+      <div class="home-image">
+        <img src="./images/home-image1.jpg">
+      </div>
+    </section>
+<!--This below code for about page -->
+    <section id="about">
+      <h2>About CodSoft</h2>
+      <div class="about-container">
+      <img src="./images//about-image.png">
+      <p>
+        CodSoft is a leading IT services company which is specialized in web
+        development, e-commerce, and mobile applications. Established in 2022,
+        we are committed to deliver innovative solutions and provide
+        industry-relevant training through our internship programs.
+      </p>
+      </div>
+    </section>
+<!--This below code for Services page -->
+    <section class="services">
+      <h2 id="services">Our Services</h2>
+      <div class="container">
+        <div class="box">
+          <img src="./images/web-page.png">
+          <p>Custom websites and web applications designed to meet your business needs.</p>
+          <h3 class="name">Web Development</h3>
+        </div>
+        <div class="box">
+          <img src="./images/ecommerce.png">
+          <p>Scalable online store solutions for seamless shopping experiences.</p>
+          <h3 class="ecom-name">E-Commerce Development </h3>
+        </div>
+        <div class="box">
+          <img src="./images/mobile.png">
+          <p> Android and iOS applications built for performance and engagement.</p>
+          <h3 class="mobile-name">Mobile App Development </h3>
+        </div>
+        <div class="box">
+          <img src="./images/internship.jpeg">
+          <p>Hands-on training in web development, Android development, Java,data science.</p> 
+          <h3 class="intern-name"> Internship Programs </h3>
+        </div>
+    </section>
+<!--This below code for Contact page -->
+<section id="contacts" >
+  <div class="contact">
+  <div class="content">
+    <h1  >Contact Us</h1>
+    <p >📩 Get in Touch | 📞 Let's Connect<br>"Let’s connect and create something amazing together!" 🚀</p>
+  </div>
+  <div class="contact-container">
+    <div class="contactInfo">
+      <div class="boxx">
+        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+        <div class="text">
+          <h3 >Address</h3>
+          <p >
+            1st Floor 62, 2/2, Peter's Rd, <br>Ganapathy Colony, Royapettah,<br> Chennai, Tamil Nadu 600014
+          </p>
+        </div>
+      </div>
+      <div class="boxx">
+        <div class="icon"><i class="fa-solid fa-phone"></i></i></div>
+        <div class="text">
+          <h3>Phone</h3>
+          <p>
+          087785 48891
+          </p>
+        </div>
+      </div>
+      <div class="boxx">
+        <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+        <div class="text">
+          <h3 style=" position: relative;
+top: 0px;">Email</h3>
+          <h5 >
+           contact@codsoft.in
+        </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="contactForm">
+      <form >
+        <h2 style=" position: relative;
+top: 0px;">Send Message</h2>
+        <div class="inputBox">
+          <input type="text" name="" required>
+          <span>Full Name</span>
+        </div>
+        <div class="inputBox">
+          <input type="text" name="" required>
+          <span>Email</span>
+        </div>
+        <div class="inputBox">
+          <textarea required></textarea>
+          <span>Type your Message...</span>
+        </div>
+        <div class="inputBox">
+          <input type="submit" name="" value="Send">
+        </div>
+      </form>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="social-links">
+      <a href="https://in.linkedin.com/company/codsoft" target="_blank" class="icon linkedin">
+          <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/SP-24680/CODSOFT/tree/main/PORTFOLIO
+      " target="_blank" class="icon github">
+          <i class="fab fa-github"></i>
+      </a>
+      <a href="mailto:contact@codsoft.in" class="icon email">
+          <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+    <p>&copy; 2025 CodSoft. All Rights Reserved.</p>
+</footer>
+
+  </div>
+  
+</section>
+
+<!--This below code for footer page -->
+    <footer>
+      <p>&copy; 2025 CodSoft. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+      function showMessage() {
+        alert("Welcome to CodSoft Page!");
+      }
+    </script>
+  </body>
+</html>
